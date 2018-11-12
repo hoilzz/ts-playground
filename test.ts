@@ -1,9 +1,5 @@
-class Test {
-  constructor() {
-    console.log("test");
-  }
+function add(x: number, y: number): number {
+  return x + y;
 }
 
-new Test();
-let n = 10;
-n = "asd";
+let myAdd = function(x: number, y: number): number { return x + y };
