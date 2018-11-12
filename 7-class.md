@@ -81,4 +81,12 @@ getter/setter
 추상클래스는 다른 클래스가 파생될 수 있는 기본 클래스
 - 직접 인스턴스화 불가능
 - 인터페이스와 달리 추상클래스는 클래스 멤버에 대한 __구현 세부 정보 포함 가능__
-- 
+
+```ts
+abstract class Animal {
+  abstract makeSound(): void;
+  move(): void {
+    console.log('roaming the earth..');
+  }
+}
+```
